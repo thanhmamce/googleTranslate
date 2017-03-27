@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'googleTranslate_Example' do
+  pod 'googleTranslate', :path => '../'
+
+  target 'googleTranslate_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
